@@ -1,0 +1,6 @@
+# messages.yml #
+command-usage: '&c&lSaberTools &f» &7Try /sabertool give <player> <radius>'
+tool-recieved: '&c&lSaberTools &f» &7You have recieved a &c&lSaberTool!'
+invalid-number: '&c&lSaberTools &f» &7That radius is invalid, try using any odd number!'
+invalid-player: '&c&lSaberTools &f» &b{player} &7is not online!'
+no-perms: '&c&l[!] &7You do not have permission to execute this command!'

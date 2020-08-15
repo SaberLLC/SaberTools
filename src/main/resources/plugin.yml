@@ -1,0 +1,8 @@
+name: SaberTools
+author: Trent & Driftay
+main: me.saber.tools.SaberTools
+version: 1.0
+commands:
+  sabertool:
+    aliases:
+      - sabertools

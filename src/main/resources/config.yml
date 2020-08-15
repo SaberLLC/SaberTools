@@ -1,0 +1,63 @@
+#######################################################################################
+#######################################################################################
+#######################################################################################
+#####                                                                             #####
+#####                          SaberTools 3.0                                     #####
+#####                    Created by Driftay & Trent                               #####
+#####                                                                             #####
+#######################################################################################
+#######################################################################################
+#######################################################################################
+#<-------------------------------------->NOTES<-------------------------------------->#
+#All Color Codes Can Be Used!
+#Refer to: https://wiki.ess3.net/mc/
+
+#For all Enchantments List
+#Refer to: http://wiki.ess3.net/wiki/Enchantments
+#<-------------------------------------->NOTES<-------------------------------------->#
+SaberTools:
+  Log-Core-Protect: false #MUST HAVE COREPROTECT INSTALLED
+
+  Axe:
+    item-type: 'diamond_axe'
+    item-name: '&c&lSaber Tool &7(Axe)'
+    item-lore:
+      - '&f'
+      - '&4&l* &cRadius: &f{radius}x{radius}'
+      - '&4&l* &cObtained from: &fstore.mystore.com'
+      - ''
+      - '&7&o(( Tip: your &f&oaxe&7&o will &a&oautomatically'
+      - '&7&oswitch depending on the &a&oterrain&7&o! ))'
+    enchantments: # format is -  enchantmentName:enchantmentLevel
+      - 'DIG_SPEED:5'
+      - 'LOOT_BONUS_BLOCKS:5'
+      - 'DURABILITY:5'
+
+  Pickaxe:
+    item-type: 'diamond_pickaxe'
+    item-name: '&c&lSaber Tool &7(Pickaxe)'
+    item-lore:
+      - '&f'
+      - '&4&l* &cRadius: &f{radius}x{radius}'
+      - '&4&l* &cObtained from: &fstore.mystore.com'
+      - ''
+      - '&7&o(( Tip: your &f&opickaxe&7&o will &a&oautomatically'
+      - '&7&oswitch depending on the &a&oterrain&7&o! ))'
+    enchantments: # format is -  enchantmentName:enchantmentLevel
+      - 'LOOT_BONUS_BLOCKS:5'
+      - 'DIG_SPEED:5'
+      - 'DURABILITY:5'
+
+  Shovel:
+    item-type: 'diamond_shovel'
+    item-name: '&c&lSaber Tool &7(Shovel)'
+    item-lore:
+      - '&f'
+      - '&4&l* &cRadius: &f{radius}x{radius}'
+      - '&4&l* &cObtained from: &fstore.mystore.com'
+      - ''
+      - '&7&o(( Tip: your &f&oshovel&7&o will &a&oautomatically'
+      - '&7&oswitch depending on the &a&oterrain&7&o! ))'
+    enchantments: # format is -  enchantmentName:enchantmentLevel
+      - 'DIG_SPEED:5'
+      - 'DURABILITY:5'
